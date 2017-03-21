@@ -1,0 +1,38 @@
+#eventbutton {
+	height: 30px;
+	width: 300px;
+	float: right;
+	margin-top: 10px;
+
+}
+#eventsform {
+
+	height: 500px;
+	width: 800px;
+	border-color:black;
+	border-width: 1px;
+	border-radius: 2px;
+	border-style: groove;
+	padding: 3px;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding-top: 40px;
+}
+
+#sessionform {
+
+	height: 500px;
+	width: 800px;
+	border-color:black;
+	border-width: 1px;
+	border-radius: 2px;
+	border-style: groove;
+	padding: 3px;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding-top: 40px;
+}
+
+.table{
+	margin-right: 20px;
+}
