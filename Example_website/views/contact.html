@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <meta charset="UTF-8">
+    <title>Welcome to BYFS!</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" type="text/css">
+
+    <script>
+        function getDate(){
+            var date = new Date();
+            var formattedDate = "Date is " + date.getDate()+"-"+date.getMonth()+"-"+date.getYear();
+            document.getElementById("dateText").innerHTML = formattedDate;
+
+        }
+    </script>
+</header>
+<body onload="getDate()">
+<div id="page_header">
+    <div id="corp_logo">
+        <p>Do What You Do Better !</p>
+
+    </div>
+    <div id="page_menu">
+        <ul>
+            <li><a href="new.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="contact.html">Contant</a></li>
+        </ul>
+
+    </div>
+</div>
+<div id="page_body">
+    <p style="text-align: left; margin-left: 5px">Office Address</p>
+    <img src="/images/offices.jpg" style="float: right">
+    <div id="mailing_list">
+        <form action="thankyou" method="post">
+            <p style="margin-left: 35px"> Enter your email address </p>
+            <input type="text" size="40" style="margin-left: 35px" name="email"/>
+            <input type="submit" value="Join our mailing list"/>
+        </form>
+    </div>
+    <p id="dateText"></p>
+
+
+</div>
+<footer>Copyright 2017</footer>
+</body>
+</html>
